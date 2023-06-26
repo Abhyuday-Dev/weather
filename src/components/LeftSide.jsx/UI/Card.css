@@ -86,4 +86,7 @@
     width: 45px;
     height: 45px;
   }
+  .card p {
+    font-size: 7.5px;
+  }
 }
