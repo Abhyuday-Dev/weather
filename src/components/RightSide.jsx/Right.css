@@ -149,3 +149,25 @@ input{
     border: none;
 }
 }
+@media  (max-width: 340px) {
+    .right{
+       padding: 0.5rem;
+    }
+    .search-area{
+       display: flex;
+       gap: 0px;
+       align-items: center;
+       color: black;
+   }
+   
+   .right-icon{
+       font-weight: 600;
+       font-size: 0.8rem;
+   }
+   
+   input{
+       font-size: 1rem;
+       outline: none;
+       border: none;
+   }
+   }
