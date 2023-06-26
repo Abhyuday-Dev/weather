@@ -1,0 +1,71 @@
+.rise {
+  width: 230px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffff;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+}
+
+.info h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.rise-icon {
+  padding-top: 7px;
+  font-size: 2rem;
+  color: rgb(245, 245, 25);
+}
+
+.p {
+  color: #cbcbcb;
+}
+
+@media (min-width: 1130px) and (max-width: 1400px) {
+  .rise-icon {
+    font-size: 1.5rem;
+  }
+  .info h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1129px) {
+  .rise-icon {
+    font-size: 1rem;
+  }
+  .info h2 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .rise-icon {
+    font-size: 1.5rem;
+  }
+  .info h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 600px) {
+  .rise-icon {
+    font-size: 1rem;
+  }
+  .info h2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}

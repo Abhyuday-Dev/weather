@@ -1,0 +1,8 @@
+.highlight-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

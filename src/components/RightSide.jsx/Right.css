@@ -1,0 +1,128 @@
+.right{
+    width: 30%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.search-area{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    padding-left: 1rem;
+}
+
+.right-icon{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+input{
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+}
+
+.img-area{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+.right-img{
+    width: 100%
+}
+.right-content{
+    padding-left: 1.5rem;
+}
+
+.right-heading{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+
+
+.right-city{
+    width: 80%;
+    margin: 0 auto;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-city p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+@media (max-width: 1000px) {
+    .right{
+        width: 100%;
+        padding: 0rem 2rem;
+        justify-content: space-around;
+        height: 60vh;
+    }
+    .search-area{
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .right-img{
+        width: 60%;
+    }
+    .container{
+        display: flex;
+        padding: 0rem 1.5rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .right-heading{
+        font-size: 6.5rem;
+        font-weight: 400;
+    }
+
+    .right-city{
+        height: 100px;
+    }
+    .right-city p{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+@media  (max-width: 600px) {
+    .right{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .right-heading{
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+    .right-city{
+        height: 60px;
+    }
+    .right-city p{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .right-img{
+        width: 90%;
+    }
+    .right-subheading{
+        font-size:0.7rem;
+    }
+}
