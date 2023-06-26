@@ -83,6 +83,7 @@
     height: 100%;
     overflow-x: hidden;
     border-radius: 0px;
+    padding-bottom: 20px;
   }
   .conversion {
     width: 30px;
