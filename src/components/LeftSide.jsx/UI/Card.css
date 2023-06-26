@@ -75,3 +75,15 @@
     height: 47px;
   }
 }
+
+@media (max-width: 380px) {
+  .card {
+    width: 50px;
+    height: 100px;
+    padding: 8px;
+  }
+  .panel-icon img {
+    width: 45px;
+    height: 45px;
+  }
+}
