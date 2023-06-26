@@ -152,7 +152,7 @@ input{
     border: none;
     border: 0.5px solid #d6d6d6;
     border-radius: 25px;
-    background-color: #f6f6f6;
+    background-color: #fff;
 }
 }
 @media  (max-width: 340px) {
@@ -176,6 +176,6 @@ input{
        outline: none;
        border: 0.5px solid #d6d6d6;
     border-radius: 25px;
-    background-color: #f6f6f6;
+    background-color: #fff;
    }
    }
