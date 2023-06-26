@@ -11,3 +11,9 @@
     overflow-x: hidden;
   }
 }
+
+@media  (max-width: 480px) {
+  .today-panel{
+    padding: 0 1rem;
+  }
+}
