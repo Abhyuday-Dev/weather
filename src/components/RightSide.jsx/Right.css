@@ -12,6 +12,7 @@
     align-items: center;
     color: black;
     padding-left: 1rem;
+    
 }
 
 .right-icon{
@@ -23,6 +24,7 @@ input{
     font-size: 1.3rem;
     outline: none;
     border: none;
+    border-bottom: 1px solid black;
 }
 
 .img-area{
@@ -133,20 +135,24 @@ input{
  }
  .search-area{
     display: flex;
-    gap: 2px;
+    gap: 0px;
     align-items: center;
     color: black;
 }
 
 .right-icon{
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 input{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
     outline: none;
     border: none;
+    border: 0.5px solid #d6d6d6;
+    border-radius: 25px;
+    background-color: #f6f6f6;
 }
 }
 @media  (max-width: 340px) {
@@ -168,6 +174,8 @@ input{
    input{
        font-size: 1rem;
        outline: none;
-       border: none;
+       border: 0.5px solid #d6d6d6;
+    border-radius: 25px;
+    background-color: #f6f6f6;
    }
    }
