@@ -21,10 +21,10 @@
 }
 
 input{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d6d6d6;
 }
 
 .img-area{
