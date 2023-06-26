@@ -126,3 +126,26 @@ input{
         font-size:0.7rem;
     }
 }
+
+@media  (max-width: 480px) {
+ .right{
+    padding: 1rem;
+ }
+ .search-area{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    color: black;
+}
+
+.right-icon{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input{
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+}
+}
