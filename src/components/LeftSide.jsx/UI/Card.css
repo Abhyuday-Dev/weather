@@ -90,3 +90,18 @@
     font-size: 7.5px;
   }
 }
+
+@media (max-width: 345px) {
+  .card {
+    width: 55px;
+    height: 100px;
+    padding: 8px;
+  }
+  .panel-icon img {
+    width: 45px;
+    height: 45px;
+  }
+  .card p {
+    font-size: 7px;
+  }
+}

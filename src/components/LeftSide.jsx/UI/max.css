@@ -126,3 +126,32 @@
     font-size: 12px;
   }
 }
+
+
+@media (max-width: 350px) {
+  .rise {
+    width: 120px;
+    height: 100px;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 305px) {
+  .rise {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .p {
+    font-size: 8px;
+  }
+  .rise-info h2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}

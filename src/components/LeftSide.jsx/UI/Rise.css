@@ -69,3 +69,13 @@
     font-weight: 600;
   }
 }
+
+@media (max-width: 305px) {
+  .rise-icon {
+    font-size: 1rem;
+  }
+  .info h2 {
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+}

@@ -62,3 +62,27 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 350px) {
+  .highlight {
+    width: 120px;
+    height: 100px;
+    padding: 1rem 1rem 1.2rem 1rem;
+    margin: 0.5rem;
+  }
+  .highlight-info {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 305px) {
+  .highlight {
+    width: 100px;
+    height: 100px;
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 0.5rem;
+  }
+  .highlight-info {
+    font-size: 1rem;
+  }
+}
